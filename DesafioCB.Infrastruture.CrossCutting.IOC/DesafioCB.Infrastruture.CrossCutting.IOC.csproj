@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesafioCB.Application\DesafioCB.Application.csproj" />
+    <ProjectReference Include="..\DesafioCB.Domain.Services\DesafioCB.Domain.Services.csproj" />
+    <ProjectReference Include="..\DesafioCB.Infrastructure.Repository\DesafioCB.Infrastructure.Repository.csproj" />
+    <ProjectReference Include="..\DesafioCB.Infrastruture.CrossCutting.Adapter\DesafioCB.Infrastruture.CrossCutting.Adapter.csproj" />
+  </ItemGroup>
+
+</Project>

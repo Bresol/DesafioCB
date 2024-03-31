@@ -1,0 +1,6 @@
+@DesafioCB.Presentation_HostAddress = http://localhost:5191
+
+GET {{DesafioCB.Presentation_HostAddress}}/api/produtos
+Accept: application/json
+
+###
