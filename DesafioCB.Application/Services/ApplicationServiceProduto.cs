@@ -1,7 +1,10 @@
 ﻿using DesafioCB.Application.DTO.DTO;
 using DesafioCB.Application.Interfaces;
+using DesafioCB.Application.Validations;
 using DesafioCB.Domain.Core.Interfaces.Services;
+using DesafioCB.Domain.Models;
 using DesafioCB.Infrastruture.CrossCutting.Adapter.Interfaces;
+using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +28,12 @@ namespace DesafioCB.Application.Services
         public void Add(ProdutoDTO obj)
         {
             var objProduto = _mapperProduto.MapperToEntity(obj);
-            _serviceProduto.Add(objProduto);
+
+            var validator = new ProdutoValidator();
+            ValidationResult result = validator.Validate(objProduto);
+
+            if (result.IsValid)
+                _serviceProduto.Add(objProduto);
         }
 
         public void Dispose()

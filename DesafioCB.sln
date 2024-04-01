@@ -15,25 +15,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 Data", "4.1 Data", "{72
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 CrossCutting", "4.2 CrossCutting", "{61EAAB6B-9315-457B-92AD-8A9EF88A7F48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCB.Domain", "DesafioCB.Domain\DesafioCB.Domain.csproj", "{E247C7AB-04CC-4F95-ADA7-EB62EC1F3304}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCB.Domain", "DesafioCB.Domain\DesafioCB.Domain.csproj", "{E247C7AB-04CC-4F95-ADA7-EB62EC1F3304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCB.Domain.Core", "DesafioCB.Domain.Core\DesafioCB.Domain.Core.csproj", "{BC042672-DFF3-4D4C-9B94-6D2489BF4F6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCB.Domain.Core", "DesafioCB.Domain.Core\DesafioCB.Domain.Core.csproj", "{BC042672-DFF3-4D4C-9B94-6D2489BF4F6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCB.Domain.Services", "DesafioCB.Domain.Services\DesafioCB.Domain.Services.csproj", "{42110745-206F-4ED1-981C-ED47FC1B8023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCB.Domain.Services", "DesafioCB.Domain.Services\DesafioCB.Domain.Services.csproj", "{42110745-206F-4ED1-981C-ED47FC1B8023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCB.Application", "DesafioCB.Application\DesafioCB.Application.csproj", "{0D5D25E7-46C1-4D2A-A859-8C9654D4A740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCB.Application", "DesafioCB.Application\DesafioCB.Application.csproj", "{0D5D25E7-46C1-4D2A-A859-8C9654D4A740}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCB.Application.DTO", "DesafioCB.Application.DTO\DesafioCB.Application.DTO.csproj", "{66E23B7D-3B1B-41BE-A49D-021B840643C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCB.Application.DTO", "DesafioCB.Application.DTO\DesafioCB.Application.DTO.csproj", "{66E23B7D-3B1B-41BE-A49D-021B840643C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCB.Infrastructure.Data", "DesafioCB.Infrastructure.Data\DesafioCB.Infrastructure.Data.csproj", "{F65C5ADF-AA2F-44A7-90E6-89E2731DF8DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCB.Infrastructure.Data", "DesafioCB.Infrastructure.Data\DesafioCB.Infrastructure.Data.csproj", "{F65C5ADF-AA2F-44A7-90E6-89E2731DF8DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCB.Infrastructure.Repository", "DesafioCB.Infrastructure.Repository\DesafioCB.Infrastructure.Repository.csproj", "{986123C3-4251-4C9E-9DCE-261A7551363C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCB.Infrastructure.Repository", "DesafioCB.Infrastructure.Repository\DesafioCB.Infrastructure.Repository.csproj", "{986123C3-4251-4C9E-9DCE-261A7551363C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCB.Infrastruture.CrossCutting.Adapter", "DesafioCB.Infrastruture.CrossCutting.Adapter\DesafioCB.Infrastruture.CrossCutting.Adapter.csproj", "{9B500FFE-97FD-472A-908C-A5FB0F6AF619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCB.Infrastruture.CrossCutting.Adapter", "DesafioCB.Infrastruture.CrossCutting.Adapter\DesafioCB.Infrastruture.CrossCutting.Adapter.csproj", "{9B500FFE-97FD-472A-908C-A5FB0F6AF619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCB.Infrastruture.CrossCutting.IOC", "DesafioCB.Infrastruture.CrossCutting.IOC\DesafioCB.Infrastruture.CrossCutting.IOC.csproj", "{13000264-4198-47B0-8E66-C1E3D7594243}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCB.Infrastruture.CrossCutting.IOC", "DesafioCB.Infrastruture.CrossCutting.IOC\DesafioCB.Infrastruture.CrossCutting.IOC.csproj", "{13000264-4198-47B0-8E66-C1E3D7594243}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCB.Presentation", "DesafioCB.Presentation\DesafioCB.Presentation.csproj", "{3BB0F2D4-5D2C-4AC8-BF8C-4F61DF16F60B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCB.Presentation", "DesafioCB.Presentation\DesafioCB.Presentation.csproj", "{3BB0F2D4-5D2C-4AC8-BF8C-4F61DF16F60B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{B32B2363-3BA9-43A3-A8AE-127B72118DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCB.XUnitTeste", "DesafioCB.XUnitTeste\DesafioCB.XUnitTeste.csproj", "{EC543270-858C-4C6E-BDE7-03780A0ACE54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,10 @@ Global
 		{3BB0F2D4-5D2C-4AC8-BF8C-4F61DF16F60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB0F2D4-5D2C-4AC8-BF8C-4F61DF16F60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB0F2D4-5D2C-4AC8-BF8C-4F61DF16F60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC543270-858C-4C6E-BDE7-03780A0ACE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC543270-858C-4C6E-BDE7-03780A0ACE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC543270-858C-4C6E-BDE7-03780A0ACE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC543270-858C-4C6E-BDE7-03780A0ACE54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +106,7 @@ Global
 		{9B500FFE-97FD-472A-908C-A5FB0F6AF619} = {61EAAB6B-9315-457B-92AD-8A9EF88A7F48}
 		{13000264-4198-47B0-8E66-C1E3D7594243} = {61EAAB6B-9315-457B-92AD-8A9EF88A7F48}
 		{3BB0F2D4-5D2C-4AC8-BF8C-4F61DF16F60B} = {6A58F576-2D10-4C49-9A68-3C851D040684}
+		{EC543270-858C-4C6E-BDE7-03780A0ACE54} = {B32B2363-3BA9-43A3-A8AE-127B72118DB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DCBD2680-5904-44AE-A5D4-04051295CEB5}

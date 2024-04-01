@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DesafioCB.Application.DTO\DesafioCB.Application.DTO.csproj" />
     <ProjectReference Include="..\DesafioCB.Domain.Core\DesafioCB.Domain.Core.csproj" />
     <ProjectReference Include="..\DesafioCB.Infrastruture.CrossCutting.Adapter\DesafioCB.Infrastruture.CrossCutting.Adapter.csproj" />
