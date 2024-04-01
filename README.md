@@ -1,7 +1,7 @@
 # Desafio CB
 
 Criar um docker-compose.yaml para SQL server :
-
+```json
 version: "3.7"
 services:
   sql-server-db:
@@ -12,11 +12,13 @@ services:
     environment:
       SA_PASSWORD: "SuperSenh@1234"
       ACCEPT_EULA: "Y"
+```
 
 Executar docker-compose up -d
 
 Criar um docker-compose.yaml para Kafka :
 
+```json
 version: '2'
 services:
   zookeeper:
@@ -33,5 +35,6 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+```
 
 Executar docker-compose up -d
