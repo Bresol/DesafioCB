@@ -1,6 +1,8 @@
-﻿using DesafioCB.Application.DTO.DTO;
+﻿using Confluent.Kafka;
+using DesafioCB.Application.DTO.DTO;
 using DesafioCB.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace DesafioCB.Presentation.Controllers
 {
@@ -41,6 +43,9 @@ namespace DesafioCB.Presentation.Controllers
 
 
                 _applicationServiceProduto.Add(produtoDTO);
+                
+                SendMessageByKafka(produtoDTO);
+                
                 return Ok("O produto foi cadastrado com sucesso");
             }
             catch (Exception ex)
@@ -89,6 +94,16 @@ namespace DesafioCB.Presentation.Controllers
 
                 throw ex;
             }
+        }
+        private IProducer<string, string> _kafkaProducer;
+        private void SendMessageByKafka(ProdutoDTO produtoDTO)
+        {
+
+            var config = new ProducerConfig { BootstrapServers = "localhost:9092" };
+            _kafkaProducer = new ProducerBuilder<string, string>(config).Build();
+
+            var message = new Message<string, string> { Key = Guid.NewGuid().ToString(), Value = JsonSerializer.Serialize(produtoDTO) };
+            _kafkaProducer.Produce("Estoque", message);
         }
     }
 }
